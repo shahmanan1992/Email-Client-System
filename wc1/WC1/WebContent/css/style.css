@@ -1,0 +1,120 @@
+/*-------------------------------------------------
+GLOBALS CLASSES
+-------------------------------------------------*/
+*{ margin:0; padding:0; font-family: 'Pontano Sans', sans-serif;}
+body { }
+
+p {font-family: 'Pontano Sans', sans-serif; color:#939191; font-size:14px;}
+a { text-decoration:none; color:#00c0ff;}
+a:hover { text-decoration:none; color:#dd31ae;}
+ul li { list-style:none; outline:none;}
+h1 { font-family: 'Oswald', sans-serif; color:#45303f; font-size:30px;}
+
+/*-------------------------------------------------
+CSS TWEAKS
+-------------------------------------------------*/
+.marLeft30 { margin-left:30px;}
+.marRight30 { margin-right:30px;}
+.marginTop { margin-top:30px;}
+.marginBottom { margin-bottom:60px;}
+.padTop { padding-top:20px;}
+.padBottom { padding-bottom:20px;}
+.wid960{ width:1100px !important; }
+
+/*-------------------------------------------------
+GENERAL CLASSES
+-------------------------------------------------*/
+
+.panel { overflow:hidden;}
+.title {}
+.content { overflow:hidden; font-size:14px;margin-bottom:10px;}
+.clearing{margin-top:30px;}
+/*-------------------------------------------------
+HEADER CLASSES
+-------------------------------------------------*/
+
+.header-wrap { width:100%;background:#00c0ff; }
+#welcome {position:fixed;top:10px;left:30px;font-size:16px;font-weight:bold;}
+.header { max-width:1250px; margin:0 auto;padding-top:40px;height:60px;font-weight: bolder;font-size: 30px;}
+#logout {position:fixed;top:60px;left:1250px;font-size:18px;font-weight:bold;color:black;}
+#logout a:hover{text-decoration:none;color:yellow;}
+.search { float:right; width:280px; margin-top:50px;}
+.search-input { float:left; width:220px;}
+.search-button { float:left;}
+.search-text-field { width:900px; border:0px solid ; border:1px solid lightgrey; height:40px; padding-left:10px;font-size: 16px}
+
+/*-------------------------------------------------
+4 PANELS CLASSS
+-------------------------------------------------*/
+
+/*.panel-wrapper { width:960px; margin:0 auto; overflow:hidden; margin-top:30px;}*/
+/*.panel-wrapper .panel { float:left; width:403px; padding:30px; margin-bottom:30px;}*/
+/*.panel-wrapper .title { padding-bottom:20px;}*/
+/*.panel-wrapper .title img { float:left; margin-right:20px;}*/
+/*.panel-wrapper .content p { padding-left:60px;}*/
+/*.panel-wrapper .content a { background:#dd31ae; color:#ffffff; }*/
+/*.panel-wrapper .content a:hover { background:#00c0ff; color:#ffffff;}*/
+/*.panel-wrapper .button-link{padding-left:60px; padding-top:20px;}*/
+
+/*-------------------------------------------------
+LAYOUT CLASSS
+-------------------------------------------------*/
+.page-wrapper { width:1300px; margin:0 auto;}
+.primary-content { width:950px; }
+.sidebar {width:200px; }
+.floatLeft{float:left; }
+.contentMail {line-height:50px;background-color:#f1f1f1;border:1px solid #ebebeb;padding:5px; }
+/*-------------------------------------------------
+PRIMARY CONTENT CLASSS
+-------------------------------------------------*/
+
+/*.primary-content .panel {  padding:30px;}*/
+/*.primary-content .title { width:100%;}*/
+/*.primary-content .title h1 { padding-bottom:10px;}*/
+/*.primary-content .title h2{ background:#dd31ae; height:40px; line-height:40px; color:#ffffff; font-weight:normal; font-size:20px; padding-left:10px;  margin-bottom:20px;}*/
+/*.primary-content .content img{ float:left; margin-right:30px; }*/
+/*.primary-content .content p{ padding-bottom:20px;}*/
+/*.primary-content .content h3 { font-size:16px; color:#dd31ae; padding-bottom:10px;}*/
+.content{}
+.generic-content { overflow:hidden; width:900px; padding:30px; background:#ffffff; margin-top:30px;}
+.generic-content { overflow:hidden; width:900px; padding:30px; background:#ffffff; margin-top:30px;}
+.generic-content .title h2{ font-size:16px; font-weight:normal; color:#b6b6b6; padding-bottom:20px; border-bottom:1px solid #ebebeb; margin-bottom:30px; padding-top:10px;}
+
+.portfolio { overflow:hidden; width:900px; padding:30px; background:#ffffff; margin-top:30px;}
+.portfolio .title h2{ font-size:16px; font-weight:normal; color:#b6b6b6; padding-bottom:20px; border-bottom:1px solid #ebebeb; margin-bottom:30px; padding-top:10px;}
+.portfolio .panel { width:280px; border:none;  background:#f5f5f5; float:left; margin-bottom:30px;}
+.portfolio .panel .content { padding:10px; padding-bottom:20px;}
+.portfolio .panel .content p{ padding-bottom:10px;}
+.portfolio .panel .content p span{ padding-bottom:10px; border-bottom: 1px solid #dddddd;  color:#dd31ae; display:block;}
+.portfolio .panel .content a { color:#ffffff; background:#00c0ff; padding: 0px 6px 0px 6px;  text-transform:uppercase; font-family:'Oswald', sans-serif; font-size:12px;}
+.portfolio .panel .content a:hover { background:#dd31ae;}
+.portfolio .panel .content img{ padding-bottom:10px;}
+
+/*-------------------------------------------------
+SIDEBAR CLASSS
+-------------------------------------------------*/
+
+.sidebar .panel { width:298px; padding-bottom:30px;}
+.sidebar .title h1 { padding:30px; }
+.sidebar .title ul li { display:block; padding-bottom:15px ;font-size: 17px;}
+.sidebar .title .click {font-size: 16px;padding:5px;border:none;border-radius: 3px;background-color: red;color:white}
+.sidebar .content ul li a { padding-left:30px; color:#939191; font-size:14px;}
+.sidebar .content ul li a:hover {color:#dd31ae;}
+.sidebar .content ul li a.active {color:#dd31ae;}
+.sidebar .content ul li.borderNone { border-bottom:none;}
+
+.subscribe {}
+.subscribe .button-link a { display:block; width:90px; height:36px; line-height:36px; text-align:center; background:#00c0ff; color:#ffffff; font-size:12px; margin-left:30px; margin-top:20px;}
+.subscribe .button-link a:hover { background:#dd31ae;} 
+.sidebar-text-field { width:230px; height:40px; line-height:40px; border:0px solid; background:#e6e6e6; padding-left:10px; color:#9b9b9b; margin-left:30px; margin-top:30px;}
+
+.sidebar .call { background:#dd31ae; padding:30px;}
+.sidebar .call h1 { color:#ffffff; text-transform:uppercase; font-size:22px; font-weight:normal;}
+.sidebar .call h1 span { font-size:18px; padding-left:15px;}
+
+.footer-wrapper { width:100%; background:#00c0ff; overflow:hidden;}
+.footer { width:960px; height:100px; line-height:100px; text-align:center; margin:0 auto; color:#ffffff; font-size:14px;}
+.footer a { color:#45303f;}
+.footer a:hover { color:#ffffff;}
+
+

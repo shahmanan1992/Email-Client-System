@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+#login
+{
+	display:none;
+	position:fixed;
+    width:100%;
+    opacity:0.85;
+    background-color: #7F7F7F;
+    z-index:10;
+    height:100%;
+    top:0px;
+    left:0px;
+}
+
+#dialogBox
+{
+	position:fixed;
+	display:none;
+	background-color:white;
+	width:500px;
+	z-index:10;
+}
+
+#headerMessage
+{
+	position:fixed;
+	display:none;
+	background-color:black;
+	width:515px;
+	z-index:10;
+	color:white;
+	padding:10px;
+}
+
+#closeButton
+{
+	float:right;
+	border:none;
+	
+}
+
+form
+{
+	color:black;
+	background-color:white;
+	font-size:15px;
+}
+
+form input {
+	padding:15px;
+	width:100%;
+	line-height: 10px;
+}
+
+textarea
+{
+	padding:15px;
+	width:502px;
+	resize:none;
+}
+
+
+#dialogBox input::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 1.1em;
+    font-family: 'Poiret One';
+    font-weight: bold;
+}
+
+textarea::-webkit-input-placeholder { /* WebKit browsers */
+	font-size:1.1em;
+    font-family: 'Poiret One';
+}
+

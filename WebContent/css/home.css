@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+    margin:0;
+    background-color: ghostwhite;
+}
+
+#login
+{
+    margin: 0 auto;
+    width:60%;
+}
+
+.fixed_width
+{
+    margin-top:80px;
+    text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color:black;
+}
+
+.fixed_width_admin
+{
+    position: relative;
+    margin-top:80px;
+    text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color:black;
+}
+
+.middle
+{
+    font-size: 20px;
+    margin-top:-15px;
+}
+
+.information form
+{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    width:50%;
+    margin:0 auto;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+form input
+{
+    margin-top: -15px;
+    height:40px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 250px;
+    padding-left:10px;
+    padding-top: 3px;
+}
+
+form input:hover
+{
+    border:1px solid #00fa00;
+}
+#submit input
+{
+    font-size: medium;
+    background-color: #00fa00;
+    color:white;
+    border: 0;
+    margin-top:-10px;
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 1.2em;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+#errorMessage
+{
+	position:fixed;
+	top:140px;
+	left:550px;
+	font-size:16px;
+	color:red;
+}
